@@ -1,4 +1,5 @@
-import CardGeneral from "./components/CardGeneral
+import CardErick from "./components/CardErick";
+import CardGeneral from "./components/CardGeneral";
 import CrisCard from "./components/CrisCard";
 import CardPaco from "./components/CardPaco";
 import CardJess from "./components/CardJess";
@@ -73,7 +74,9 @@ function App() {
             <CardGeneral>{/* llamar componente de  card Robert */}</CardGeneral>
           </div>
           <div class="col-12 col-md-4 col-lg-3 mt-2">
-            <CardGeneral>{/* llamar componente de  card Erick */}</CardGeneral>
+            <CardGeneral>
+              <CardErick name="Erick" image="/erick.jpg" location="Paraíso, Tabasco, MX"/>
+            </CardGeneral>
           </div>
           <div class="col-12 col-md-4 col-lg-3 mt-2">
             <CardGeneral>{/* llamar componente de  card Heidel */}</CardGeneral>
