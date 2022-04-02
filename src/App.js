@@ -1,4 +1,5 @@
-import CardGeneral from "./components/CardGeneral"
+import CardGeneral from "./components/CardGeneral";
+import CardErick from "./components/CardErick";
 import CrisCard from "./components/CrisCard";
 import CardPaco from "./components/CardPaco";
 import CardJess from "./components/CardJess";
@@ -45,9 +46,7 @@ function App() {
               ></CardHugo>
             </CardGeneral>
           </div>
-          <div class="col-12 col-md-4 col-lg-3 mt-2">
-            <CardGeneral>{/* llamar componente de  card Hector */}</CardGeneral>
-          </div>
+          
           <div class="col-12 col-md-4 col-lg-3 mt-2">
 
             <CardGeneral>
@@ -70,15 +69,13 @@ function App() {
               <CardRubs></CardRubs>
             </CardGeneral>
           </div>
+          
           <div class="col-12 col-md-4 col-lg-3 mt-2">
-            <CardGeneral>{/* llamar componente de  card Robert */}</CardGeneral>
+            <CardGeneral>
+              <CardErick name="Erick" image="/erick.jpg" location="Paraíso, Tabasco, MX"/>
+            </CardGeneral>
           </div>
-          <div class="col-12 col-md-4 col-lg-3 mt-2">
-            <CardGeneral>{/* llamar componente de  card Erick */}</CardGeneral>
-          </div>
-          <div class="col-12 col-md-4 col-lg-3 mt-2">
-            <CardGeneral>{/* llamar componente de  card Heidel */}</CardGeneral>
-          </div>
+          
           <div class="col-12 col-md-4 col-lg-3 mt-2">
             <CardGeneral>
               {/* llamar componente de  card fer */}
@@ -90,6 +87,15 @@ function App() {
                 img ='https://ca.slack-edge.com/T01FMK00309-U01GP5A1JUA-81c0c9262721-512'
                 />
             </CardGeneral>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mt-2">
+            <CardGeneral>{/* llamar componente de  card Robert */}</CardGeneral>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mt-2">
+            <CardGeneral>{/* llamar componente de  card Hector */}</CardGeneral>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mt-2">
+            <CardGeneral>{/* llamar componente de  card Heidel */}</CardGeneral>
           </div>
         </div>
       </section>
