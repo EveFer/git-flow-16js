@@ -1,4 +1,4 @@
-import CardGeneral from "./components/CardGeneral
+import CardGeneral from "./components/CardGeneral"
 import CrisCard from "./components/CrisCard";
 import CardPaco from "./components/CardPaco";
 import CardJess from "./components/CardJess";
@@ -51,7 +51,7 @@ function App() {
 
             <CardGeneral>
               {/* llamar componente de  card Cris*/}
-              <CrisCard name="cris" location="CDMX" image="/git-flow-16js/public/cris.jpg">
+              <CrisCard name="cris" location="CDMX" image="/cris.jpg">
               </CrisCard>
             </CardGeneral>
           </div>
