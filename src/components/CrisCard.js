@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card'
 
 export default function CrisCard({name="cris", image="/git-flow-16js/public/cris.jpg", location="CDMX"}) {
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card>
     <Card.Img variant="top" src={image} />
     <Card.Body>
       <Card.Title>{name}</Card.Title>
