@@ -20,8 +20,6 @@ function CardRubs() {
       </Card.Body>
       <ListGroup className="list-group-flush">
         <ListGroupItem>Coyoacán CDMX</ListGroupItem>
-        <ListGroupItem>38 años</ListGroupItem>
-        <ListGroupItem>Soltero</ListGroupItem>
       </ListGroup>
       <Card.Body>
         <Card.Link href="https://github.com/RubSDev">Github RubSDev</Card.Link>
