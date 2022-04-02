@@ -1,4 +1,4 @@
-import CardGeneral from "./components/CardGeneral
+import CardGeneral from "./components/CardGeneral";
 import CrisCard from "./components/CrisCard";
 import CardPaco from "./components/CardPaco";
 import CardJess from "./components/CardJess";
