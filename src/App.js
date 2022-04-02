@@ -30,13 +30,11 @@ function App() {
           </div>
           <div class="col-12 col-md-4 col-lg-3 mt-2">
             <CardGeneral>
-              {
-                <CardJess
-                  name="Jessica Vargas"
-                  image="/jess-vargas.jpeg"
-                  profession="Soy diseñadora UI y actualmente trabajo en una agencia llamada Convertia, me encuentro estudiando para convertirme en desarrolladora web. Me encanta dibujar para relajar mi cabeza y disfruto mucho tomar un cafecito, escuchar música y diseñar"
-                />
-              }
+              <CardJess
+                name="Jessica Vargas"
+                image="/jess-vargas.jpeg"
+                profession="Soy diseñadora UI y actualmente trabajo en una agencia llamada Convertia, me encuentro estudiando para convertirme en desarrolladora web. Me encanta dibujar para relajar mi cabeza y disfruto mucho tomar un cafecito, escuchar música y diseñar"
+              />
             </CardGeneral>
           </div>
           <div class="col-12 col-md-4 col-lg-3 mt-2">
