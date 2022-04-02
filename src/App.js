@@ -1,7 +1,8 @@
 import CardGeneral from "./components/CardGeneral";
+import CardJess from "./components/CardJess";
+import CardRubs from "../src/components/CardRubs";
 import CardHugo from "./components/Card_hugo";
 
-import CardRubs from "../src/components/CardRubs"
 function App() {
   return (
     <>
@@ -23,9 +24,11 @@ function App() {
           <div class="col-12 col-md-4 col-lg-3 mt-2">
             <CardGeneral>
               {/* llamar componente de  card Hugo */}
-              <CardHugo name="Hugo Ro." ubicacion="Zapopan, Jalisco" imagen="hugo.jpeg">
-
-              </CardHugo>
+              <CardHugo
+                name="Hugo Ro."
+                ubicacion="Zapopan, Jalisco"
+                imagen="hugo.jpeg"
+              ></CardHugo>
             </CardGeneral>
           </div>
           <div class="col-12 col-md-4 col-lg-3 mt-2">
@@ -35,7 +38,13 @@ function App() {
             <CardGeneral>{/* llamar componente de  card Cris*/}</CardGeneral>
           </div>
           <div class="col-12 col-md-4 col-lg-3 mt-2">
-            <CardGeneral>{/* llamar componente de  card Jess */}</CardGeneral>
+            <CardGeneral>
+              <CardJess
+                name="Jessica Vargas"
+                image="/jess-vargas.jpeg"
+                profession="Soy diseñadora UI y actualmente trabajo en una agencia llamada Convertia, me encuentro estudiando para convertirme en desarrolladora web. Me encanta dibujar para relajar mi cabeza y disfruto mucho tomar un cafecito, escuchar música y diseñar"
+              />
+            </CardGeneral>
           </div>
           <div class="col-12 col-md-4 col-lg-3 mt-2">
             <CardGeneral>
