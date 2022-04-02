@@ -26,4 +26,4 @@ function CardAldahir(props){
     );
 }
 
-export default CardAldahir;
+export {CardAldahir};

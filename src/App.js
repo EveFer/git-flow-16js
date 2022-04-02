@@ -1,10 +1,11 @@
-import CardGeneral from "./components/CardGeneral
+import CardGeneral from "./components/CardGeneral"
 import CrisCard from "./components/CrisCard";
 import CardPaco from "./components/CardPaco";
 import CardJess from "./components/CardJess";
 import CardRubs from "../src/components/CardRubs";
 import CardHugo from "./components/Card_hugo";
-import CardAldahir from './components/CardAldahir';
+import {CardAldahir} from './components/CardAldahir';
+import {CardAldahir as CardFer} from './components/CardAldahir';
 
 
 function App() {
@@ -51,7 +52,7 @@ function App() {
 
             <CardGeneral>
               {/* llamar componente de  card Cris*/}
-              <CrisCard name="cris" location="CDMX" image="/git-flow-16js/public/cris.jpg">
+              <CrisCard name="cris" location="CDMX" image="/cris.jpg">
               </CrisCard>
             </CardGeneral>
           </div>
@@ -79,7 +80,16 @@ function App() {
             <CardGeneral>{/* llamar componente de  card Heidel */}</CardGeneral>
           </div>
           <div class="col-12 col-md-4 col-lg-3 mt-2">
-            <CardGeneral>{/* llamar componente de  card fer */}</CardGeneral>
+            <CardGeneral>
+              {/* llamar componente de  card fer */}
+              <CardFer
+                nombre= 'Fernanda Palacios'
+                nickname= 'Fers'
+                edad ='25 años'
+                ubicacion = 'CDMX'
+                img ='https://ca.slack-edge.com/T01FMK00309-U01GP5A1JUA-81c0c9262721-512'
+                />
+            </CardGeneral>
           </div>
         </div>
       </section>
