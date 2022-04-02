@@ -1,4 +1,3 @@
-import { Card } from "react-bootstrap";
 import CardGeneral from "./components/CardGeneral";
 import CardPaco from "./components/CardPaco";
 import CardJess from "./components/CardJess";
