@@ -1,5 +1,6 @@
+import { Card } from "react-bootstrap";
 import CardGeneral from "./components/CardGeneral";
-
+import CardPaco from "./components/CardPaco";
 function App() {
   return (
     <>
@@ -15,7 +16,9 @@ function App() {
           </div>
           <div class="col-12 col-md-4 col-lg-3 mt-2">
             <CardGeneral>
+            <CardPaco name="El Paco" ubicacion="Zapopan, Jalisco" imagen="/1517003198970.jpeg">
               {/* llamar componente de  card Paco */}
+            </CardPaco>
             </CardGeneral>
           </div>
           <div class="col-12 col-md-4 col-lg-3 mt-2">
