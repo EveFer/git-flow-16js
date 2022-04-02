@@ -55,6 +55,11 @@ function App() {
           </div>
           <div class="col-12 col-md-4 col-lg-3 mt-2">
             <CardGeneral>
+              {/* llamar componente de  card Heidel */}
+            </CardGeneral>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mt-2">
+            <CardGeneral>
               {/* llamar componente de  card fer */}
             </CardGeneral>
           </div>
